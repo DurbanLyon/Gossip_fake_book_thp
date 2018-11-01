@@ -1,7 +1,7 @@
 class RegistrationsController < ApplicationController
 
     def index
-    puts "index"
+        @gossips = Gossip.all
     end
 
     def new
@@ -14,7 +14,6 @@ class RegistrationsController < ApplicationController
         @user.email = params[:email]
         @user.password = params[:password]
         @user.save
-        session[:current_user_id]
         redirect_to(gossip_path(@user.id))
     end
 
@@ -33,5 +32,4 @@ class RegistrationsController < ApplicationController
         end
 
     end
-        
 end

@@ -14,9 +14,13 @@
  *= require_self
  */
 
+.backgroundgerenal {
+	background-color: #999999   ;
+}
 
 body {margin:0;font-family:Arial}
 
+/*navbar*/
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -29,7 +33,7 @@ body {margin:0;font-family:Arial}
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .active {
@@ -118,4 +122,49 @@ body {margin:0;font-family:Arial}
     width: 100%;
     text-align: left;
   }
+}
+
+
+/*header*/
+.img_gossip, .welcenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*modules to log*/
+.module1 {
+	display: flex;
+    justify-content: center;
+    align-self: center;
+}
+/*width module's log*/
+.col-md-6 {
+	min-width: 375px;
+}
+
+/*body gossip*/
+.btncreategossip, .btndeletegossip, .gossiptext, .gossipbody {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*grid1*/
+.grid1 {
+
+}
+
+.style_png {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+}
+
+/*footer1*/
+.footer1 {
+	display: fixed;
+	margin-bottom: 0px;
 }
