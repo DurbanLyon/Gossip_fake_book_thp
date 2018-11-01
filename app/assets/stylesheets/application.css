@@ -18,7 +18,12 @@
 	background-color: #999999   ;
 }
 
-body {margin:0;font-family:Arial}
+p {
+	font-size: 20px;
+
+}
+
+body {margin:0;font-family:Cabin Condensed,Arial}
 
 /*navbar*/
 .topnav {
@@ -33,7 +38,7 @@ body {margin:0;font-family:Arial}
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .active {
@@ -51,7 +56,7 @@ body {margin:0;font-family:Arial}
 }
 
 .dropdown .dropbtn {
-    font-size: 17px;    
+    font-size: 20px;    
     border: none;
     outline: none;
     color: white;
@@ -132,6 +137,10 @@ body {margin:0;font-family:Arial}
     justify-content: center;
 }
 
+/*appli background img*/
+
+
+
 /*modules to log*/
 .module1 {
 	display: flex;
@@ -159,7 +168,7 @@ body {margin:0;font-family:Arial}
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 70%;
 }
 }
 
