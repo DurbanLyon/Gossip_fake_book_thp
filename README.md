@@ -1,24 +1,10 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Boumediene Salim, Saghour khalil, Smoth kenadi
 
-Things you may want to cover:
+This README would normally document whatever steps are necessary to get the application up and running.
 
-* Ruby version
+Suite à un problème de push prod, je vous présente la version sans front.
+Mais si vous le voulez, vous pouvez tester le repo en local pour voir le front.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+lien du site
+**** https://fake-the-gossip-salim.herokuapp.com/
